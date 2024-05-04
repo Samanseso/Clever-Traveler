@@ -1,0 +1,115 @@
+html {
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#page-contaier {
+    overflow: hidden;
+}
+
+@media (min-width: 1440px) {
+    html {
+      zoom: 1.5;
+    }
+}
+  
+@media (min-width: 2560px) {
+    html {
+      zoom: 1.7;
+    }
+}
+  
+@media (min-width: 3860px) {
+    html {
+      zoom: 2.5;
+    }
+}
+  
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+
+body {
+    font-size: 2.3rem !important;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff83;
+    z-index: 999;
+}
+
+.spinner-border {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: #797979;
+    transition: all 0.5s ease-in-out;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #222224;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f9f9f9;
+}
+
+#routing {
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#routing-map {
+    overflow: hidden;
+    height: 100vh !important;
+    width: 100vw !important;
+}
+
+
+.leaflet-control-layers, .leaflet-control-zoom {
+    margin-top: 7rem !important;
+}
+
+.details {
+    bottom: 8.5rem;
+}
+
+.buttons {
+    bottom: 4rem;
+}
+
+#instructions-header {
+    margin-top: 7rem;
+    width: 100vw;
+    height: 74vh;
+    overflow: auto;
+    display: none;
+}
+
+header {
+    margin: 0 0.5rem !important;
+}
+
+
